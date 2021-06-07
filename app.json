@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "DiscussionForum",
+    "slug": "DiscussionForum",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./components/images/IIITL_logo.png",
+    "splash": {
+      "image": "./components/images/IIITL_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 2
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
